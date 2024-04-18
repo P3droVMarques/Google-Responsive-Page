@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./output.css">
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&display=swap">
+    <title>Document</title>
+</head>
+<body class="bg-gray-100">
+    <div class="container mx-auto px-4 py-8">
+        <p id="typing-text" class="text-2xl font-mono text-center"></p>
+      <div class="flex items-center justify-center">
+        <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="Google Logo" class="w-40">
+      </div>
+      <div class="flex items-center justify-center mt-8">
+        <form action="https://www.google.com/search" method="get" class="w-full max-w-md">
+          <div class="flex items-center">
+            <input type="text" name="q" class="w-full h-7 px-4 py-2 rounded-l-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-" placeholder="Search Google">
+            <button type="submit" class="px-4 py-2 rounded-r-md bg-blue-500 text-white hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 focus:ring-offset-gray-100">
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <section class="bg-blue-500 text-white p-8 mt-16">
+        <div class="container mx-auto text-center">
+          <h2 class="text-4xl font-bold mb-8">Ready to get started?</h2>
+          <p class="text-gray-200 mb-8">Sign up now and get access to all of our features</p>
+          <form class="max-w-md mx-auto">
+            <label class="block mb-4">
+              <input type="email" class="w-full px-4 py-2 rounded-lg bg-gray-800 text-white border-gray-800 focus:border-blue-500 focus:ring-2 focus:ring-blue-500 focus:outline-none" placeholder="Enter your email address">
+            </label>
+            <button class="w-full py-2 px-4 rounded-lg bg-sky-500 hover:bg-sky-600 focus:bg-sky-600 focus:outline-none">Pre Order</button>
+          </form>
+        </div>
+      </section>
+      <section class="bg-gray-100 py-8">
+        <div class="container mx-auto px-4">
+          <h2 class="text-4xl font-bold text-center">Latest news</h2>
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+            <div class="bg-white p-6 rounded-lg shadow-md hover:border-blue-500 border">
+              <h3 class="text-lg font-bold mb-2">BBC News</h3>
+              <p class="text-gray-600">A semeadura de nuvens realmente causou as enchentes recorde em Dubai?</p>
+              <a href="https://www.bbc.com/portuguese/articles/cg301wkzznno" class="text-blue-500 hover:underline">Leia mais</a>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow-md transition-colors duration-300 hover:border-blue-500 border">
+              <h3 class="text-lg font-bold mb-2">O Globo</h3>
+              <p class="text-gray-600">PIB do Brasil será o 8º no ranking mundial este ano. Confira em ranking animado.</p>
+              <a href="https://oglobo.globo.com/economia/noticia/2024/04/16/fmi-revisa-pib-do-brasil-e-pais-deve-chegar-a-8o-no-ranking-global-este-ano.ghtml" class="text-blue-500 hover:underline">Leia mais</a>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow-md  hover:border-blue-500 border">
+              <h3 class="text-lg font-bold mb-2">CNN Brasil</h3>
+              <p class="text-gray-600">Estrelado por Wagner Moura e Kirsten Dunst, “Guerra Civil” chega aos cinemas</p>
+              <a href="https://www.cnnbrasil.com.br/entretenimento/estrelado-por-wagner-moura-e-kirsten-dunst-guerra-civil-chega-aos-cinemas/" class="text-blue-500 hover:underline">Leia mais</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <script src="app.js"></script>
+  </body>
+</html>
